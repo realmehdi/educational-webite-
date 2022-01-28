@@ -1,0 +1,65 @@
+/* start header section styles */
+.img-header {
+    width: 100%;
+    min-height: 96vh;
+  }
+  .overlay {
+    width: 100%;
+    min-height: 96vh;
+    background-color: rgba(0, 0, 0, 0.755);
+  }
+  .header-title{
+    font-family: vazir;
+    max-width: 500px;
+    color: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .header-title span{
+    font-family: vazir;
+  }
+  .header-title a {
+    background-color: #7896c5;
+    color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    float: left;
+    transition: 0.4s ease;
+    font-size: 14px;
+  }
+  .header-title a:hover{
+    background-color: #2555b7;
+    border-radius: 0 10px 0 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .header-title {
+      background-color: #ffffff20;
+      padding: 20px;
+      margin: 0%;
+      border-radius: 5px;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .header-title h2{
+      font-size: 17px;
+    }
+    .overlay,.img-header {
+      min-height: 100%;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .header-title h2{
+      font-size: 14px;
+    }
+    .header-title span{
+      font-size: 14px;
+    }
+    .header-title a{
+      font-size: 12px;
+    }
+  }

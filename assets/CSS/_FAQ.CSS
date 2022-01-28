@@ -1,0 +1,85 @@
+/* start FAQ section style */
+.FAQ-section-bg{
+    background-color: #f1f1f1;
+    width: 100%;
+    min-height: 500px;
+}
+.FAQ-section-wrapper .FAQ-right-side{
+    box-shadow: 2px 4px 6px 0px #a9a9a9;
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 50px;
+}
+.FAQ-section-wrapper .FAQ-right-side h6{
+    font-size: 16px;
+    cursor: pointer;
+}
+.FAQ-section-wrapper .FAQ-right-side h6 i{
+    font-size: 28px;
+    margin-left: 16px;
+    vertical-align: -5px;
+    color: #004c97;
+    font-weight: normal;
+}
+.FAQ-section-wrapper .FAQ-right-side p{
+    font-size: 14px;
+    color: #6b6b6b;
+    margin: 10px 45px 0px 0px;
+}
+.FAQ-section-wrapper .FAQ-left-side .tabs{
+    box-shadow: 2px 4px 6px 0px #a9a9a9;
+    overflow: hidden;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab{
+    color: #f1f1f1;
+    overflow: hidden;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-lable{
+    padding: 11px;
+    background-color: #011b4c;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    transition: 0.4s ease;
+    font-size: 16px;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-lable:hover{
+    background-color: #004c97;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-lable::after{
+    content: '\276f';
+    text-align: center;
+    transition: .4s ease;
+    float: left;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-content{
+    height: 0px;
+    transition: .5s ease;
+    background-color: #004c97;
+    font-size: 14px;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab input:checked ~ .tab-content{
+    height: 100px;
+    padding: 15px;
+    text-align: justify;
+    overflow-y: scroll;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-content::-webkit-scrollbar{
+    width: 12px;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-content::-webkit-scrollbar-track{
+    background-color: #004c97;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab .tab-content::-webkit-scrollbar-thumb{
+    background-color: #011b4c;
+    border-radius: 10px;
+}
+.FAQ-section-wrapper .FAQ-left-side .tab input:checked + .tab-lable::after{
+    transform: rotate(-90deg);   
+}
+.FAQ-section-wrapper .FAQ-left-side input{
+    display: none;
+}
+.FAQ-section-wrapper .FAQ-left-side{
+    margin-top: 80px;
+}

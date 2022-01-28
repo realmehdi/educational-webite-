@@ -1,0 +1,96 @@
+/* start topic section style */
+.topic-section-wrapper{
+    background-image: url("/assets/img/topic-header.jpg");
+    min-height: 820px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.topic-wrapper .card{
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 6px 3px #dddddd;
+    width: 100%;
+    min-height: 340px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.topic-section-wrapper .date-of-topic{
+    background-color: #011b4c;
+    width: 40px;
+    height: 25px;
+    bottom: 215px;
+    right: 30px;
+    text-align: center;
+    color: #f1f1f1;
+    z-index: 1;
+}
+.topic-section-wrapper .month-of-topic{
+    background-color: #afafaf;
+    width: 40px;
+    height: 25px;
+    bottom: 190px;
+    right: 30px;
+    text-align: center;
+    color: #f1f1f1;
+}
+.topic-wrapper .card-header{
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.topic-wrapper .card-body{
+    min-height: 190px;
+}
+.topic-wrapper .card-body .intractions{
+    bottom: 0px;
+    border-top: 1px solid #d8d8d8e5;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: #767676;
+    display: block;
+}
+.topic-wrapper .card-body .intractions i{
+    font-size: 18px;
+    padding-left: 5px;
+}
+.topic-wrapper .card-body .intractions .fa-heart:active{
+    color: red;
+}
+.topic-wrapper .card-body .intractions .fa-comments:active{
+    color: black;
+}
+.topic-wrapper .card-body .intractions .fa-eye:active{
+    color: blue;
+}
+.topic-wrapper .card-body .intractions abbr{
+    padding-left: 20px;
+}
+@media screen and (max-width:768px),(max-width:1040px) {
+    .topic-wrapper .card-body .intractions i{
+        font-size: 15px;
+        padding-left: 2px;
+    }
+    .topic-wrapper .card-body .intractions abbr{
+        font-size: 14px;
+        padding-left: 6px;
+    }
+}
+.topic-wrapper .card-header img{
+    transition: .5s ease;
+    width: 100%;
+    height: 170px;
+}
+.topic-wrapper:hover img{
+    transform: scale(1.2) rotate(10deg);
+}
+.topic-wrapper .card-body a{
+    font-size: 16px;
+    padding-right: 15px;
+    color: #3d3d3d;
+}
+.topic-wrapper .card .card-body p{
+    font-size: 14px;
+    padding:10px 15px;
+    color: #2555b7;
+}

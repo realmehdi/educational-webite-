@@ -1,0 +1,62 @@
+/* strat contact section style */
+
+.container-fluid-custom {
+    background-color: #011b4c;
+    color: #f1f1f1;
+    height: 36px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.container-fluid-custom .contact i {
+    color: #7896c5;
+    margin-right: 15px;
+    vertical-align: -9px;
+}
+
+.container-fluid-custom .contact span {
+    color: #f1f1f1;
+    margin-left: 5px;
+    vertical-align: 1px;
+    font-size: 17px;
+    font-family: iransans;
+}
+
+.container-fluid-custom .social-media {
+    direction: ltr;
+}
+
+.container-fluid-custom .social-media i {
+    padding: 10px;
+}
+
+.container-fluid-custom .social-media a {
+    color: #f1f1f1;
+}
+
+.container-fluid-custom .social-media .fa-facebook-f:hover {
+    background-color: #3b5998;
+}
+
+.container-fluid-custom .social-media .fa-twitter:hover {
+    background-color: #00acee;
+}
+
+.container-fluid-custom .social-media .fa-telegram-plane:hover {
+    background-color: #0088cc;
+}
+
+.container-fluid-custom .social-media .fa-instagram:hover {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.container-fluid-custom .social-media .fa-youtube:hover {
+    background-color: #ff0000;
+}
+
+.container-fluid-custom .social-media .fa-rss:hover {
+    background-color: #ee802f;
+}
+
+
+/* end contact section style */
